@@ -1,0 +1,362 @@
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+/**
+*       HEADER
+*/
+
+.home
+{
+    perspective: 800px;
+}
+
+.home .header 
+{
+    padding: 20px 0;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.home .header .button
+{
+    background-color: #3F98CC;
+    border-radius: 8px;
+    color: white;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 0;
+    box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease-in;
+    will-change: transform;
+    transform: translateZ(0px);
+    display: inline-block;
+}
+
+.home .header .button:hover
+{
+transform: translateZ(-1px);
+background-color:#2788BC;
+}
+
+.home .ddl-button
+{
+    width: 100%;
+}
+
+header#header .header .how-works
+{
+    transform: translateX(20px);
+}
+
+header#header .header p
+{
+    display: inline;
+}
+/**
+*       LANDING 
+*/
+
+.home .background-landing
+{
+    background: url('../images/backgrounds/landing-optimiam.jpg') no-repeat center fixed;
+}
+
+.home .landing
+{
+    padding-bottom: 50px;
+}
+
+.home .landing .catch-phrase
+{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 60px;
+    margin-top: 50px;
+}
+
+.home .landing .sub-catch-phrase
+{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.home .landing .ddl-app
+{
+    margin-top: 80px;  
+}
+
+/** 
+*        number
+*/
+
+.home section.main-number
+{
+    margin-bottom: 70px;
+}
+
+.home .main-number .icons
+{
+    margin-top: 50px;
+}
+
+.home .main-number .sub-title
+{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-top: 30px;
+}
+
+.home .main-number .explain-txt
+{
+    font-size: 14px;
+    line-height: 21px;
+    color: #666666;
+    margin-top: 30px;
+}
+
+.home .main-number .width-image
+{
+    width: 50%;
+}
+
+.home .main-number .underline p
+{
+    font-size: 15px;
+    line-height: 21px;
+    color: #666666;
+    text-decoration: underline;
+    padding-top: 10px;
+}
+
+/**
+*       Popular seller
+*/
+
+.home section.popular-seller.background-grey, .home section.articles.background-grey
+{
+    background-color: #f9f7f7;
+}
+
+.home .popular-seller h4, .home .articles h4
+{
+    color: #333333;
+    font-size: 24px;
+    padding-top: 30px;
+}
+
+.home .popular-seller .logos img, .home .articles .logos img
+{
+    width: 180px;
+}
+
+.home .popular-seller .row:nth-child(2)
+{
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+/**
+*       Optibox
+*/
+
+.home section.optibox .container
+{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.home section.optibox h4.sub-title
+{
+    font-size: 34px;
+    line-height: 34px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 25%;
+    right: 0;
+    color: #333333;
+}
+
+.home section.optibox .text-optibox
+{
+    position: absolute;
+    color: #666666;
+    font-size: 15px;
+    line-height: 21px;
+    bottom: 15%;
+    right: 0;
+}
+
+.home section.optibox .download-buttons
+{
+    position: absolute;
+    color: #666666;
+    font-size: 15px;
+    line-height: 21px;
+    bottom: 5%;
+    right: 0;
+}
+
+.home section.optibox .download-buttons img
+{
+    margin-left: -10px;
+}
+
+/**
+*       HOW IT WORKS
+*/
+
+.home .how-it-works
+{
+    background: url('../images/backgrounds/tropical-fruits.jpg') no-repeat center;
+    color: #666666;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.color-pink
+{
+    color: #FF8387;
+}
+
+/**
+*       help-numbers
+*/
+
+.home .help-numbers h3
+{
+    font-size: 36px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.home .help-numbers .sub-title
+{
+    color: #333333;
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.home .help-numbers .number
+{
+    color: #FF8387;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.home .articles .logos
+{
+    margin-bottom: 60px;
+}
+
+/**
+*       End-business
+*/
+.home section.end-business
+{
+    background-color: #F1695D;
+}
+
+.home section.end-business h3
+{
+    font-size: 36px;
+    font-weight: bold;
+    /* color: #333333; */
+    color: white;
+    padding-top: 60px;
+}
+
+.home section.end-business .free
+{
+    font-size: 14px;
+    /* color: #666666; */
+    color: white;
+    margin-bottom: 80px;
+}
+
+.home section.end-business .button
+{   
+    background-color: #3F98CC;
+    border-radius: 8px;
+    color: white;
+    /* width: 100%; */
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 0;
+    margin-bottom: 60px;
+    box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease-in;
+    will-change: transform;
+}
+
+.home section.end-business .button:hover
+{
+transform: translateZ(1px);
+background-color:#2788BC;
+}
+
+/**
+*       FOOTER  
+*/
+
+.background-magenta
+{
+    background-color: #FF8387;
+}
+
+.home .background-magenta .row:nth-child(1)
+{
+    padding-top: 50px;
+}
+
+.home .background-magenta .footer-txt, .home .background-magenta .footer-subtitle
+{
+    color: white;
+}
+
+.home .background-magenta .footer-txts
+{
+    margin-top:  20px;
+    padding-bottom: 50px;
+}
+
+.row:nth-last-child(1)
+{
+    margin-bottom: 0;
+}
+
+/**
+*       RESPONSIVE 
+**/
+
+@media (max-width: 600px)
+{
+
+    /* Landing screen */
+    .home section.landing .catch-phrase
+    {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .home section.landing .sub-catch-phrase
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /* main-number */
+    .home section.main-number .icon
+    {
+        margin-top: 50px;
+    }
+}
