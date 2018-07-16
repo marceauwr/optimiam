@@ -154,7 +154,7 @@ header#header .header p
 
 .home .popular-seller .logos img, .home .articles .logos img
 {
-    width: 180px;
+    width: 18%;
 }
 
 .home .popular-seller .row:nth-child(2)
@@ -166,47 +166,49 @@ header#header .header p
 /**
 *       Optibox
 */
-
-.home section.optibox .container
+@media (min-width:600px)
 {
-    position: relative;
-    margin-bottom: 50px;
-}
+    .home section.optibox .container
+    {
+        position: relative;
+        margin-bottom: 50px;
+    }
+    
+    .home section.optibox h4.sub-title
+    {
+        font-size: 34px;
+        line-height: 34px;
+        font-weight: bold;
+        position: absolute;
+        bottom: 25%;
+        right: 0;
+        color: #333333;
+    }
+    
+    .home section.optibox .text-optibox
+    {
+        position: absolute;
+        color: #666666;
+        font-size: 15px;
+        line-height: 21px;
+        bottom: 15%;
+        right: 0;
+    }
+    
+    .home section.optibox .download-buttons
+    {
+        position: absolute;
+        color: #666666;
+        font-size: 15px;
+        line-height: 21px;
+        bottom: 5%;
+        right: 0;
+    }
 
-.home section.optibox h4.sub-title
-{
-    font-size: 34px;
-    line-height: 34px;
-    font-weight: bold;
-    position: absolute;
-    bottom: 25%;
-    right: 0;
-    color: #333333;
-}
-
-.home section.optibox .text-optibox
-{
-    position: absolute;
-    color: #666666;
-    font-size: 15px;
-    line-height: 21px;
-    bottom: 15%;
-    right: 0;
-}
-
-.home section.optibox .download-buttons
-{
-    position: absolute;
-    color: #666666;
-    font-size: 15px;
-    line-height: 21px;
-    bottom: 5%;
-    right: 0;
-}
-
-.home section.optibox .download-buttons img
-{
-    margin-left: -10px;
+    .home section.optibox .download-buttons img
+    {
+        margin-left: -10px;
+    }
 }
 
 /**
@@ -256,6 +258,25 @@ header#header .header p
 .home .articles .logos
 {
     margin-bottom: 60px;
+}
+
+.home .help-numbers .comment-title
+{
+    color: #666666;
+    font-size:16px;
+}
+
+.home .help-numbers .comment-author
+{
+    color:#333333;
+    font-size:16px;
+}
+
+.home .help-numbers .comment-title
+{
+    font-weight: bold;
+    font-size:16px;
+    color:#333333;
 }
 
 /**
@@ -341,6 +362,14 @@ background-color:#2788BC;
 @media (max-width: 600px)
 {
 
+    /* Header */
+    .home .header .button
+    {
+        font-size: 15px;
+        padding: 4px 0;
+        line-height: 20px;
+    }
+
     /* Landing screen */
     .home section.landing .catch-phrase
     {
@@ -358,5 +387,28 @@ background-color:#2788BC;
     .home section.main-number .icon
     {
         margin-top: 50px;
+    }
+
+    /* logos */
+    .home .popular-seller .logos img, .home .articles .logos img
+    {
+        width: 48%;
+    }
+
+    /* Optibox */
+    .home section.optibox .download-buttons img
+    {
+        padding-bottom: 40px;
+    }
+
+    /* footer */
+    .home .footer-subtitle:nth-child(1)
+    {
+        margin-top: 50px;
+    }
+
+    .home .background-magenta .footer-txts
+    {
+        padding-bottom: 20px;
     }
 }

@@ -67,10 +67,13 @@ header#header .header p
 /** 
 *       SECTION 
 */
-.business section.landing
+@media (min-width: 600px)
 {
-    overflow: hidden;
-    height: 370px;
+    .business section.landing
+    {
+        overflow: hidden;
+        height: 400px;
+    }
 }
 
 .opti-app
@@ -156,13 +159,18 @@ header#header .header p
 
 .business .explanation .logos img
 {
-    width: 170px;
-    margin: 0 auto;     
+    width: 18%;   
+}
+
+.business .explanation .sub-button
+{
+    color: #999999;
+    padding-top: 30px;
 }
 
 .business .food-wasted
 {
-    background-image: url('../images/backgrounds/food_waste_overlay.jpg');
+    background: url('../images/backgrounds/food_waste_overlay.jpg') no-repeat center;
     border-radius: 15px;
 }
 
@@ -197,13 +205,13 @@ header#header .header p
 
 .business .exemple-title
 {
-    color: #302d2d;
+    color: #333333;
     font-size: 20px;
     font-weight: bold;
 }
 .business .exemple-text
 {
-    color: #736C6E;
+    color: #666666;
     font-size: 15px;
     line-height: 23px;
 }
@@ -227,6 +235,11 @@ header#header .header p
     background-color:#2788BC;
 }
 
+/* .business .explanation .points img
+{
+    width: 100%;
+} */
+
 /**
 *       Section CASE STORIES 
 */
@@ -248,8 +261,8 @@ header#header .header p
 
 .business .case-story
 {
-    margin-top: 70px;
-    padding-top: 50px;
+    margin-top: 50px;
+    padding-top: 40px;
 }
 
 .business .case-story img.case-image
@@ -269,7 +282,7 @@ header#header .header p
 
 .business .case-story .background-white .case-text
 {
-    color:#737373;
+    color:#666666;
     font-size: 13px;
     line-height: 20px;
 }
@@ -288,14 +301,14 @@ header#header .header p
 
 .business .comments .comment-txt
 {   
-    color: #575555;
+    color: #666666;
     margin-top: 30px;
     /* font-size: 14px; */
 }
 
 .business .comments .comment-author, .business .comments .comment-post
 {
-    color: #575555;
+    color: #666666;
     opacity: 0.8;
     font-size: 12px;
 }
@@ -321,9 +334,10 @@ header#header .header p
 .business .comments .sub-txt
 {
     opacity: 0.8;
-    color: #9F989A;
+    color: #666666;
     font-size: 12px;
     margin-top: -5px;
+    padding-bottom: 40px;
 }
 
 /**
@@ -363,4 +377,66 @@ header#header .header p
 .row:nth-last-child(1)
 {
     margin-bottom: 0;
+}
+
+@media (max-width: 600px)
+{
+
+    /* Header */
+    .home .header .button
+    {
+        font-size: 15px;
+        padding: 4px 0;
+        line-height: 20px;
+    }
+
+    .business .explanation .logos img
+    {
+        width: 48%;
+    }
+
+    /* Landing page */
+    .business .background-pink
+    {
+        padding-bottom: 50px;
+    }
+
+    /* explanation */
+    .business .explanation .food-wasted .subtitle
+    {
+        font-size: 20px;
+    }
+    .business .explanation .food-wasted .text
+    {
+        font-size: 20px;
+    }
+
+    .business .explanation h1
+    {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+
+    /* footer */
+    .business .footer-subtitle:nth-child(1)
+    {
+        margin-top: 50px;
+    }
+
+    .business .background-magenta .footer-txts
+    {
+        padding-bottom: 20px;
+    }
+
+    .business .exemple-text
+    {
+        font-size: 16px;
+        line-height: 24px; 
+    }
+
+    h2
+    {
+        font-size: 35px;
+    }
 }
