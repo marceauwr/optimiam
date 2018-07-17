@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/style/materialize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/burger.css">
 </head>
 <body>
     <div class="business"> 
@@ -16,16 +17,32 @@
             <div class="container">
                     <header id="header">
                         <div class="row header valign-wrapper">
-                            <img src="assets/images/logos/optimiam_logo.png" alt="Optimiam logo" class="col s4 m2 center-align">
-                            <a href="#" class="col hide-on-small-only m2 center-align"><img src="assets/images/logos/app_store.png" alt="app store" class="ddl-button"></a>
-                            <a href="#" class="col hide-on-small-only m2 center-align"><img src="assets/images/logos/google_play.png" alt="google play" class="ddl-button"></a>
+                            <a href="home.html" class="col s5 m2 center-align ">
+                                <img src="assets/images/logos/optimiam_logo.png" alt="Optimiam logo" class="optimiam-logo col s12 m12">
+                            </a>
+                            <a href="https://itunes.apple.com/fr/app/optimiam-lappli-anti-gaspi/id919245252?mt=8" class="col hide-on-small-only m2 center-align"><img src="assets/images/logos/app_store.png" alt="app store" class="ddl-button"></a>
+                            <a href="https://play.google.com/store/apps/details?id=com.optimiam.consumer&hl=fr" class="col hide-on-small-only m2 center-align"><img src="assets/images/logos/google_play.png" alt="google play" class="ddl-button"></a>
                             <div class="col hide-on-small-only m2 center-align valign-wrapper how-works">
-                                <p>Comment ça marche </p>
+                                <p class="hover-menu">Comment ça marche </p>
                                 <img src="assets/images/icons/expand_more.png" alt="" class="expand">
                             </div>
                             <div class="col hide-on-small-only m2 center-align">Connexion</div>
-                            <a href="#"><div class="col s6 m2 button center-align">Ajoutez votre commerce</div></a>
-                            <div class="col s2 hide-on-med-and-up burger">menu</div>
+                            <a href="#" class="col s5 m2 main-button"><div class="button center-align">Ajoutez votre commerce</div></a>
+                            <div class="col s2 hide-on-med-and-up burger">
+                                <div class="hamburger"></div>
+                                <ul class="menu">
+                                    <div class="white-line"></div>
+                                    <a href="home.html">
+                                        <li class="menu-section center-align">Acheter de la nourriture</li>
+                                    </a>
+                                    <a href="#">
+                                        <li class="menu-section center-align">Vendre de la nourriture</li>
+                                    </a>
+                                    <a href="#">
+                                        <li class="menu-section center-align">Connexion</li>
+                                    </a>
+                                </ul>
+                            </div>
                         </div>
                     </header>
                 <!-- Landing screen -->
@@ -161,7 +178,7 @@
                 </section>
                 <!-- Comments -->
                 <section class="comments">
-                    <h2>Our awesome testimanials</h2>
+                    <h2>Les retours des commerçants</h2>
                     <div class="row background-white">
                         <div class="col s3 m3 offset-m1">
                             <img src="assets/images/opti-iphone.png" alt="OptiMiam application" class="opti-app iphone-app">
@@ -186,7 +203,6 @@
                                         <img src="assets/images/icons/pp2.jpg" alt="" class="col s3 m3">
                                         <div class="col s9 m9">
                                             <div class="comment-author">David, Franprix</div>
-                                            <!-- <div class="comment-post">Head waiter, Nybrogatan 38</div> -->
                                         </div>
                                     </div>
                                 </div>
@@ -268,7 +284,7 @@
                             <div class="footer-subtitle">QUICK LINKS</div>
                             <div class="footer-txts">
                                 <div><a href="#" class="footer-txt">How to sell food</a></div>
-                                <div><a href="#" class="footer-txt">How to buy food</a></div>
+                                <div><a href="home.html" class="footer-txt">How to buy food</a></div>
                                 <div><a href="#" class="footer-txt">Why Karma</a></div>
                             </div>
                         </div>
@@ -286,5 +302,6 @@
             </div>
         </footer>
     </div>
+    <script src="assets/javascript/script.js"></script>
 </body>
 </html>

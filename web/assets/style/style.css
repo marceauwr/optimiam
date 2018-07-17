@@ -34,7 +34,6 @@ h2
     background-color: #3F98CC;
     border-radius: 8px;
     color: white;
-    width: 100%;
     font-size: 16px;
     font-weight: bold;
     padding: 8px 0;
@@ -42,6 +41,16 @@ h2
     transition: transform 0.3s ease-in;
     will-change: transform;
     transform: translateZ(0px);
+}
+
+@media (min-width:600px)
+{
+    .business .header .button
+    {
+        width: 100%;
+    }
+
+    
 }
 
 .business .header .button:hover
@@ -64,6 +73,13 @@ header#header .header p
 {
     width: 100%;
 }
+
+.business header#header .hover-menu:hover .hover-item
+{
+    visibility: hidden;
+}
+
+
 /** 
 *       SECTION 
 */
@@ -383,16 +399,18 @@ header#header .header p
 {
 
     /* Header */
-    .home .header .button
+
+    .business .header .button
     {
         font-size: 15px;
         padding: 4px 0;
         line-height: 20px;
     }
-
-    .business .explanation .logos img
+    
+    .business .header a.main-button
     {
-        width: 48%;
+        padding: 0;
+        margin: 0;
     }
 
     /* Landing page */
@@ -400,8 +418,13 @@ header#header .header p
     {
         padding-bottom: 50px;
     }
-
+    
     /* explanation */
+    .business .explanation .logos img
+    {
+        width: 48%;
+    }
+
     .business .explanation .food-wasted .subtitle
     {
         font-size: 20px;
