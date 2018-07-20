@@ -1,0 +1,517 @@
+body
+{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+h2
+{
+    color: #333333;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+/**
+*       HEADER
+*/
+
+
+.business{
+    padding-bottom: 50px;
+}
+
+.business .background-pink
+{
+    background-color: #FF8387;
+}
+
+.business .header 
+{
+    padding: 20px 0;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.business .header .button
+{
+    background-color: #3F98CC;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 0;
+    box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease-in;
+    will-change: transform;
+    transform: translateZ(0px);
+}
+
+@media (min-width:600px)
+{
+    .business .header .button
+    {
+        width: 100%;
+    }
+
+    
+}
+
+.business .header .button:hover
+{
+    transform: translateZ(-1px);
+    background-color:#2788BC;   
+}
+
+header#header .header .how-works
+{
+    transform: translateX(20px);
+}
+
+header#header .header p
+{
+    display: inline;
+}
+
+.business .ddl-button
+{
+    width: 100%;
+}
+
+.business header#header .hover-menu
+{
+    cursor: pointer;
+}
+
+.business header#header .hover-menu .hover-items
+{
+    cursor: pointer;
+    visibility: hidden;
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 300px;
+}
+
+.business header#header .hover-menu .hover-items li
+{
+    padding: 15px 10px;
+    border: white solid 1px;
+}
+
+.business header#header .hover-menu .hover-items li:hover
+{
+    background-color: #EF4955;
+    
+}
+
+.business header#header .hover-menu:hover .hover-items
+{
+    visibility: visible;
+    background-color: #FF8387;
+}
+
+
+/** 
+*       SECTION 
+*/
+@media (min-width: 600px)
+{
+    .business section.landing
+    {
+        padding-top: 140px;
+    }
+}
+@media (max-width: 600px)
+{
+    .business section.landing
+    {
+        padding-top: 60px;
+    }
+}
+
+@media (min-width: 600px)
+{
+    .business section.landing
+    {
+        overflow: hidden;
+        height: 500px;
+    }
+}
+
+.opti-app
+{
+    width: 100%;
+}
+
+.business .catch-phrase
+{
+    margin-top: 40px;
+    font-size: 35px;
+    line-height: 3.43rem;
+    font-weight: bold;
+}
+
+.business .check-zone
+{
+    margin-top: 40px;
+}
+
+.business .check-icon
+{
+    width: 25px;
+    height: 25px;
+}
+
+.business .check-txt
+{
+    font-size: 13px;
+}
+
+.business .call-to-action
+{    
+    margin-top: 30px;
+    background-color: #3F98CC;
+    color: white;
+    font-size: 19px;
+    border-radius: 25px;
+    padding: 10px 10px;
+    box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease-in;
+    will-change: transform;
+    transform: translateZ(0px);
+}
+
+.business{
+    perspective: 800px;
+}
+
+.perspective
+{
+    perspective: 800px;
+}
+
+.business .call-to-action:hover
+{
+    transform: translateZ(-1px);
+    background-color:#2788BC;
+}
+
+.business .sub-txt
+{
+    opacity: 0.8;
+    font-size: 13px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+/**
+*       EXPLANATION
+*/
+
+.business section.explanation
+{
+    perspective: 800px;
+}
+
+.business section.explanation .logos
+{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.business .explanation .logos img
+{
+    width: 18%;   
+}
+
+.business .explanation .sub-button
+{
+    color: #999999;
+    padding-top: 30px;
+}
+
+.business .food-wasted
+{
+    background: url('../images/backgrounds/food_waste_overlay.jpg') no-repeat center;
+    border-radius: 15px;
+}
+
+.business .food-wasted .subtitle, .food-wasted .text
+{
+    color: white;
+}
+
+.business .food-wasted .subtitle
+{
+    margin-top: 40px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.business .food-wasted .text
+{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.business h1
+{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: bold;
+}
+
+.business .exemple-title
+{
+    color: #333333;
+    font-size: 20px;
+    font-weight: bold;
+}
+.business .exemple-text
+{
+    color: #666666;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.end-explanation.button 
+{
+    background-color: #3F98CC;
+    border-radius: 25px;
+    padding: 10px 20px;
+    color: white;
+    box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease-in;
+    will-change: transform;
+    transform: translateZ(0px);
+    display: inline-block;
+}
+
+.end-explanation.button:hover
+{
+    transform: translateZ(1px);
+    background-color:#2788BC;
+}
+
+/* .business .explanation .points img
+{
+    width: 100%;
+} */
+
+/**
+*       Section CASE STORIES 
+*/
+
+.business .background-grey
+{
+    background-color: #F4F1F1;
+    padding-bottom: 50px;
+}
+.business .background-white
+{
+    background-color: #ffffff;
+}
+.border-grey
+{
+    border: solid #f4f1f1 30px;
+}
+
+
+.business .case-story
+{
+    margin-top: 50px;
+    padding-top: 40px;
+}
+
+.business .case-story img.case-image
+{
+    margin-bottom: 15px;
+    width: 90%;
+}
+
+.business .case-story img.case-image
+{
+    -webkit-transform: translate(5%, 10%);
+    transform: translate(5%, 10%);
+}
+
+.business .case-story .background-white .case-title
+{
+    color: #333333;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.business .case-story .background-white .case-text
+{
+    color:#666666;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.business .comments h2
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.business .comments .iphone-app
+{
+    margin-top: 30px;
+    /* width: 80%; */
+}
+
+.business .comments .comment-txt
+{   
+    color: #666666;
+    margin-top: 30px;
+    /* font-size: 14px; */
+}
+
+.business .comments .comment-author, .business .comments .comment-post
+{
+    color: #666666;
+    opacity: 0.8;
+    font-size: 12px;
+}
+
+.business .comments .button, .business .business-solution .button
+{
+    background-color: #3F98CC;
+    border-radius: 25px;
+    padding: 10px 20px;
+    color: white;
+    box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease-in;
+    will-change: transform; 
+    display:inline-block;
+}
+
+.business .comments .button:hover, .business .business-solution .button:hover
+{
+    transform: translateZ(1px);
+    background-color:#2788BC;
+}
+
+.business .comments .sub-txt
+{
+    opacity: 0.8;
+    color: #666666;
+    font-size: 12px;
+    margin-top: -5px;
+    padding-bottom: 40px;
+}
+
+/**
+*       Business solution final part
+*/
+
+.business .business-solution .part-title
+{
+    margin-bottom: 70px;
+    padding-top: 40px;
+}
+
+/* Footer */
+
+.background-magenta
+{
+    background-color: #FF8387;
+}
+
+.business .background-magenta .row:nth-child(1)
+{
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.business .background-magenta .footer-txt
+{
+    color: white;
+}
+
+.business .background-magenta .footer-txts
+{
+    margin-top:  20px;
+    padding-bottom: 50px;
+}
+
+.row:nth-last-child(1)
+{
+    margin-bottom: 0;
+}
+
+@media (max-width: 600px)
+{
+
+    /* Header */
+
+    .business .header .button
+    {
+        font-size: 15px;
+        padding: 4px 0;
+        line-height: 20px;
+    }
+    
+    .business .header a.main-button
+    {
+        padding: 0;
+        margin: 0;
+    }
+
+    /* Landing page */
+    .business .background-pink
+    {
+        padding-bottom: 50px;
+    }
+    
+    /* explanation */
+    .business .explanation .logos img
+    {
+        width: 48%;
+    }
+
+    .business .explanation .food-wasted .subtitle
+    {
+        font-size: 20px;
+    }
+    .business .explanation .food-wasted .text
+    {
+        font-size: 20px;
+    }
+
+    .business .explanation h1
+    {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+
+    /* footer */
+    .business .footer-subtitle:nth-child(1)
+    {
+        margin-top: 50px;
+    }
+
+    .business .background-magenta .footer-txts
+    {
+        padding-bottom: 20px;
+    }
+
+    .business .exemple-text
+    {
+        font-size: 16px;
+        line-height: 24px; 
+    }
+
+    h2
+    {
+        font-size: 35px;
+    }
+}

@@ -8,6 +8,6 @@ $hamburger.addEventListener('touchstart', (event) =>
 
     event.preventDefault()
 
-    $burger.classList.toggle('active')
+    $hamburger.classList.toggle('is-active')
     $menu.classList.toggle('shown')
 })

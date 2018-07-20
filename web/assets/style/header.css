@@ -1,0 +1,111 @@
+.background-pink.fixed-header
+{
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    width: 100%;
+    background-color: #FF8387;
+    position: fixed;
+    z-index: 1;
+}
+
+.header 
+{
+    padding: 5px 0;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.header .button
+{
+    background-color: #3F98CC;
+    border-radius: 8px;
+    color: white;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 3px 0;
+    box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease-in;
+    will-change: transform;
+    transform: translateY(0px);
+    display: inline-block;
+}
+
+.header .button:hover
+{
+transform: translateY(3px);
+background-color:#2788BC;
+}
+
+.ddl-button
+{
+    width: 100%;
+}
+
+header#header .header .how-works
+{
+    transform: translateX(20px);
+}
+
+header#header .header p
+{
+    display: inline;
+}
+
+header#header .hover-menu
+{
+    cursor: pointer;
+}
+
+header#header .hover-menu .hover-items
+{
+    cursor: pointer;
+    visibility: hidden;
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 300px;
+}
+
+header#header .hover-menu .hover-items li
+{
+    padding: 15px 10px;
+    border: white solid 1px;
+    color: #fff;
+}
+
+header#header .hover-menu .hover-items li:hover
+{
+    background-color: #EF4955;
+    
+}
+
+header#header .hover-menu:hover .hover-items
+{
+    visibility: visible;
+    background-color: #FF8387;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 600px)
+{
+
+    /* Header */
+
+    .header .button
+    {
+        font-size: 15px;
+        padding: 4px 0;
+        line-height: 20px;
+    }
+    
+    .header a.main-button
+    {
+        padding: 0;
+        margin: 0;
+    }
+}

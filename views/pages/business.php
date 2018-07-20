@@ -1,55 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Optimiam-Business</title>
-    <link rel="stylesheet" href="assets/style/materialize.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-    <link rel="stylesheet" href="assets/style/style.css">
-    <link rel="stylesheet" href="assets/style/burger.css">
-</head>
-<body>
-    <div class="business"> 
+<?php
+
+    $title = 'OptiMiam - Business';
+
+    require 'views/partials/header.php';
+?>
+
+<div class="business"> 
         <!-- HEADER -->
         <div class="background-pink">
             <div class="container">
-                    <header id="header">
-                        <div class="row header valign-wrapper">
-                            <a href="home.html" class="col s5 m2 center-align ">
-                                <img src="assets/images/logos/optimiam_logo.png" alt="Optimiam logo" class="optimiam-logo col s12 m12">
-                            </a>
-                            <a href="https://itunes.apple.com/fr/app/optimiam-lappli-anti-gaspi/id919245252?mt=8" class="col hide-on-small-only m2 center-align"><img src="assets/images/logos/app_store.png" alt="app store" class="ddl-button"></a>
-                            <a href="https://play.google.com/store/apps/details?id=com.optimiam.consumer&hl=fr" class="col hide-on-small-only m2 center-align"><img src="assets/images/logos/google_play.png" alt="google play" class="ddl-button"></a>
-                            <div class="col hide-on-small-only m2 center-align valign-wrapper how-works">
-                                <p class="hover-menu">Comment ça marche </p>
-                                <img src="assets/images/icons/expand_more.png" alt="" class="expand">
-                            </div>
-                            <div class="col hide-on-small-only m2 center-align">Connexion</div>
-                            <a href="#" class="col s5 m2 main-button"><div class="button center-align">Ajoutez votre commerce</div></a>
-                            <div class="col s2 hide-on-med-and-up burger">
-                                <div class="hamburger"></div>
-                                <ul class="menu">
-                                    <div class="white-line"></div>
-                                    <a href="home.html">
-                                        <li class="menu-section center-align">Acheter de la nourriture</li>
-                                    </a>
-                                    <a href="#">
-                                        <li class="menu-section center-align">Vendre de la nourriture</li>
-                                    </a>
-                                    <a href="#">
-                                        <li class="menu-section center-align">Connexion</li>
-                                    </a>
-                                </ul>
-                            </div>
-                        </div>
-                    </header>
                 <!-- Landing screen -->
                 <section class="landing">
                     <div class="row">
                         <div class="col hide-on-small-only m4 optimiam-app-image">
-                            <img src="assets/images/opti-iphone.png" alt="Optimiam Application" class="opti-app">
+                            <img src="<?= URL ?>web/assets/images/opti-iphone.png" alt="Optimiam Application" class="opti-app">
                         </div>
                         <div class="col s12 m6 offset-m2">
                             <div class="row catch-phrase">
@@ -57,13 +21,13 @@
                                     Transformez vos invendus en revenus !
                                 </div>
                             </div>
-                            <div class="row check-zone">
+                            <div class="<?= URL ?>web/row check-zone">
                                 <div class="col s12 m7">
-                                    <img src="assets/images/icons/check.png" alt="check icon" class="check-icon">
+                                    <img src="<?= URL ?>web/assets/images/icons/check.png" alt="check icon" class="check-icon">
                                     <span class="check-txt">Cut waste Handling times</span>
                                 </div>
                                 <div class="col s12 m5">
-                                    <img src="assets/images/icons/check.png" alt="check icon" class="check-icon">
+                                    <img src="<?= URL ?>web/assets/images/icons/check.png" alt="check icon" class="check-icon">
                                     <span class="check-txt">Boost profit</span>
                                 </div>
                             </div>
@@ -89,11 +53,11 @@
             <section class="explanation">
                 <div class="row">
                     <div class="col s12 m12 logos center-align">
-                        <img src="assets/images/logos/Hemkop_at_Karma.jpg" alt="">
-                        <img src="assets/images/logos/Scandic_at_Karma.jpg" alt="">
-                        <img src="assets/images/logos/ARKET_at_Karma.jpg" alt="">
-                        <img src="assets/images/logos/KitchenandTable_at_Karma.jpg" alt="">
-                        <img src="assets/images/logos/Aubaine_at_Karma.jpg" alt="" class="hide-on-small-only">
+                        <img src="<?= URL ?>web/assets/images/logos/Hemkop_at_Karma.jpg" alt="">
+                        <img src="<?= URL ?>web/assets/images/logos/Scandic_at_Karma.jpg" alt="">
+                        <img src="<?= URL ?>web/assets/images/logos/ARKET_at_Karma.jpg" alt="">
+                        <img src="<?= URL ?>web/assets/images/logos/KitchenandTable_at_Karma.jpg" alt="">
+                        <img src="<?= URL ?>web/assets/images/logos/Aubaine_at_Karma.jpg" alt="" class="hide-on-small-only">
                     </div>
                 </div>
                 <div class="row food-wasted">
@@ -113,7 +77,7 @@
                 </div>
                 <div class="row valign-wrapper">
                     <div class="col s12">
-                        <img src="assets/images/backgrounds/image1.jpg" alt="" class="col s12 push-m6 m6">
+                        <img src="<?= URL ?>web/assets/images/backgrounds/image1.jpg" alt="" class="col s12 push-m6 m6">
                         <div class="col s12 pull-m6 m6">
                             <h3 class="exemple-title">1. Publiez vos offres sur OptiMiam en 3 clics</h3>
                             <p class="exemple-text">
@@ -125,8 +89,8 @@
                 </div>
                 <div class="row valign-wrapper">
                     <div class="col s12">
-                        <img src="assets/images/backgrounds/image2.jpg" alt="" class="col s12 m6">
-                        <div class="col s12 m6">
+                        <img src="<?= URL ?>web/assets/images/backgrounds/image2.jpg" alt="" class="col s12 pull-m0 m6">
+                        <div class="col s12 push-m0 m6">
                             <h3 class="exemple-title">2. Touchez de nouveaux clients</h3>
                             <p class="exemple-text">Lorsque de nouvelles offres sont ajoutées sur l’application, les utilisateurs sont avertis en recevant une notification push. Notre application compte de nombreux utilisateurs susceptibles de devenir de nouveaux clients pour votre commerce, profitez d’un marketing gratuit via OptiMiam !</p>
                         </div>
@@ -134,7 +98,7 @@
                 </div>
                 <div class="row valign-wrapper">
                     <div class="col s12">
-                        <img src="assets/images/backgrounds/image3.jpg" alt="" class="col s12 push-m6 m6">
+                        <img src="<?= URL ?>web/assets/images/backgrounds/image3.jpg" alt="" class="col s12 push-m6 m6">
                         <div class="col s12 pull-m6 m6">
                             <h3 class="exemple-title">3. Choisissez les horaires qui vous conviennent</h3>
                             <p class="exemple-text">
@@ -154,26 +118,21 @@
                     <h2>Case stories</h2>
                     <div class="row">
                         <div class="col s12 m4 background-white border-grey">
-                            <img src="assets/images/logos/image4.jpg" alt="" class="case-image center-align valign-wrapper">
+                            <img src="<?= URL ?>web/assets/images/logos/pomme_de_pain_logo.png" alt="pomme de pain logo" class="case-image center-align valign-wrapper">
                             <h3 class="case-title">Marketing gratuit</h3>
                             <p class="case-text">Pomme De Pain atteint 30 000 clients chaque fois qu'ils publient leurs produits excédentaires dans l'application - imaginez le taux de vente !</p>
                         </div>
                         <div class="col s12 m4 background-white border-grey">
-                            <img src="assets/images/logos/image5.jpg" alt="" class="case-image center-align valign-wrapper">
+                            <img src="<?= URL ?>web/assets/images/logos/franprix_logo.png" alt="franprix logo" class="case-image center-align valign-wrapper">
                             <h3 class="case-title">100 kg de nourriture sauvée au cours des deux premiers mois !</h3>
                             <p class="case-text">Franprix a vu un impact immédiat de son utilisation de l’appli OptiMiam ! 
                                     Avec cette appli révolutionnaire, la chaîne a bien compris que dire adieu au gaspillage pouvait être source de revenus !</p>
                         </div>
                         <div class="col s12 m4 background-white border-grey">
-                            <img src="assets/images/logos/image6.jpg" alt="" class="case-image center-align valign-wrapper">
+                            <img src="<?= URL ?>web/assets/images/logos/sushi_wasabi_logo.png" alt="sushi wasabi logo" class="case-image center-align valign-wrapper">
                             <h3 class="case-title">Un grand nombre de plats sauvés du gaspillage !</h3>
                             <p class="case-text">Depuis 2015, Sushi Wasabi a généré près de 10 000€ de revenus grâce aux OptiBox soit l’équivalent de 3000 box de sushis sauvées ! Intéressant non ? </p>
                         </div>
-                        <!-- <div class="col m3 background-white border-grey">
-                            <img src="assets/images/logos/image7.jpg" alt="" class="case-image center-align valign-wrapper">
-                            <h3 class="case-title">200 kg food rescued during first two months</h3>
-                            <p class="case-text">Coop Falköping saw an instant impact from their use of Karma (200 kg in two months!). It also meant: goodbye waste – hello revenue.</p>
-                        </div> -->
                     </div>
                 </section>
                 <!-- Comments -->
@@ -181,17 +140,16 @@
                     <h2>Les retours des commerçants</h2>
                     <div class="row background-white">
                         <div class="col s3 m3 offset-m1">
-                            <img src="assets/images/opti-iphone.png" alt="OptiMiam application" class="opti-app iphone-app">
+                            <img src="<?= URL ?>web/assets/images/opti-iphone.png" alt="OptiMiam application" class="opti-app iphone-app">
                         </div>
                         <div class="col s5 m5 offset-m1">
                             <div class="row">
                                 <div class="col s12 m12">
                                     <p class="comment-txt">"Utiliser OptiMiam est une évidence pour tout chef ou propriétaire de restaurant ! Il n’y a pas meilleur challenge pour un commerçant que de réduire le gaspillage tout en gagnant de l'argent. "</p>
                                     <div class="row valign-wrapper">
-                                        <img src="assets/images/icons/pp.png" alt="" class="col s3 m3">
+                                        <img src="<?= URL ?>web/assets/images/icons/pp.png" alt="" class="col s3 m3">
                                         <div class="col s9 m9">
                                             <div class="comment-author">GUEST</div>
-                                            <!-- <div class="comment-post">Michelin 2 star restaurant owner</div> -->
                                         </div>
                                     </div>
                                 </div>
@@ -200,7 +158,7 @@
                                 <div class="col s12 m12">
                                     <p class="comment-txt">"Le gaspillage alimentaire est une question complexe qui peut sembler décourageante pour les chaines de supermarchés, mais OptiMiam rend ce défi simple et stimulant."</p>
                                     <div class="row valign-wrapper">
-                                        <img src="assets/images/icons/pp2.jpg" alt="" class="col s3 m3">
+                                        <img src="<?= URL ?>web/assets/images/icons/pp2.jpg" alt="" class="col s3 m3">
                                         <div class="col s9 m9">
                                             <div class="comment-author">David, Franprix</div>
                                         </div>
@@ -228,7 +186,7 @@
                 <h2 class="center-align part-title">La solution pour les excédents de votre commerce</h2>
                 <div class="row valign-wrapper">
                     <div class="col s12">
-                        <img src="assets/images/backgrounds/image4.jpg" alt="" class="col s12 push-m6 m6">
+                        <img src="<?= URL ?>web/assets/images/backgrounds/image4.jpg" alt="" class="col s12 push-m6 m6">
                         <div class="col s12 pull-m6 m6">
                             <h3 class="exemple-title">OptiMiam pour les restaurants</h3>
                             <p class="exemple-text">
@@ -240,8 +198,8 @@
                 </div>
                 <div class="row valign-wrapper">
                     <div class="col s12">
-                        <img src="assets/images/backgrounds/image5.jpg" alt="" class="col s12 m6">
-                        <div class="col s12 m6">
+                        <img src="<?= URL ?>web/assets/images/backgrounds/image5.jpg" alt="" class="col s12 pull-m0 m6">
+                        <div class="col s12 push-m0 m6">
                             <h3 class="exemple-title">OptiMiam pour les supermarchés</h3>
                             <p class="exemple-text">
                                 Faites profiter votre épicerie d’une vitrine commerciale pour vendre des aliments qui arrivent à échéance à un prix réduit. Une façon simple d’obtenir des revenus supplémentaires de la nourriture qui, autrement, aurait été gaspillée, tout en bénéficiant d’une nouvelle clientèle.
@@ -252,7 +210,7 @@
                 </div>
                 <div class="row valign-wrapper">
                     <div class="col s12">
-                        <img src="assets/images/backgrounds/image6.jpg" alt="" class="col s12 push-m6 m6">
+                        <img src="<?= URL ?>web/assets/images/backgrounds/image6.jpg" alt="" class="col s12 push-m6 m6">
                         <div class="col s12 pull-m6 m6">
                             <h3 class="exemple-title">OptiMi pour les cafés et les boulangeries</h3>
                             <p class="exemple-text">
@@ -264,44 +222,6 @@
                 </div>
             </section>
         </div>
-        <!-- FOOTER -->
-        <footer>
-            <div class="background-magenta">
-                <div class="container">
-                    <div class="row">
-                        <img src="assets/images/logos/optimiam_logo.png" alt="" class="col s4 m3">
-                        <div class="col s8 m3 offset-m5">
-                            <img src="assets/images/icons/facebook.svg" alt="" class="social">
-                            <img src="assets/images/icons/twitter.svg" alt="" class="social">
-                            <img src="assets/images/icons/instagram.svg" alt="" class="social">
-                            <img src="assets/images/icons/linkedin.svg" alt="" class="social">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <img src="assets/images/logos/app_store.png" alt="" class="col s6 m2">
-                        <img src="assets/images/logos/google_play.png" alt="" class="col s6 m2">
-                        <div class="col s12 m3 offset-m1 center-align">
-                            <div class="footer-subtitle">QUICK LINKS</div>
-                            <div class="footer-txts">
-                                <div><a href="#" class="footer-txt">How to sell food</a></div>
-                                <div><a href="home.html" class="footer-txt">How to buy food</a></div>
-                                <div><a href="#" class="footer-txt">Why Karma</a></div>
-                            </div>
-                        </div>
-                        <div class="col s12 m3 offset-m1 center-align">
-                            <div class="footer-subtitle">KARMA</div>
-                            <div class="footer-txts">
-                                <div><a href="#" class="footer-txt">Presse</a></div>
-                                <div><a href="#" class="footer-txt">Contact</a></div>
-                                <div><a href="#" class="footer-txt">FAQ</a></div>
-                                <div><a href="#" class="footer-txt">Career</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
     </div>
-    <script src="assets/javascript/script.js"></script>
-</body>
-</html>
+
+    <?php require 'views/partials/footer.php'; ?>
