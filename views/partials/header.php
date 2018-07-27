@@ -7,12 +7,14 @@
     <title><?= $title ?></title>
     <link rel="stylesheet" href="<?= URL ?>web/assets/style/materialize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="<?= URL ?>web/assets/style/vendor.css">
     <link rel="stylesheet" href="<?= URL ?>web/assets/style/home.css">
     <link rel="stylesheet" href="<?= URL ?>web/assets/style/business.css">
     <link rel="stylesheet" href="<?= URL ?>web/assets/style/header.css">
     <link rel="stylesheet" href="<?= URL ?>web/assets/style/burger.css">
     <link rel="stylesheet" href="<?= URL ?>web/assets/style/hamburgers.css">
     <link rel="stylesheet" href="<?= URL ?>web/assets/style/footer.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
 <body>
     <div class="background-pink fixed-header">
@@ -35,7 +37,6 @@
                     <div class="col hide-on-small-only push-m0 m2 center-align">Connexion</div>
                     <a href="business.html" class="col s6 push-s0 m2 button center-align"><div class="ddl-button">Ajoutez votre commerce</div></a>
                     <div class="col s2 hide-on-med-and-up burger">
-                        <!-- <div class="hamburger"></div> -->
                         <button class="hamburger hamburger--collapse" type="button">
                             <span class="hamburger-box">
                                 <span class="hamburger-inner"></span>

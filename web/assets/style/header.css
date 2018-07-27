@@ -8,6 +8,13 @@
     position: fixed;
     z-index: 1;
 }
+@media (max-width:600px)
+{
+    .background-pink.fixed-header
+    {
+        position: absolute;
+    }
+}
 
 .header 
 {

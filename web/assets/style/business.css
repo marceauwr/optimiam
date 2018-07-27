@@ -14,12 +14,6 @@ h2
 /**
 *       HEADER
 */
-
-
-.business{
-    padding-bottom: 50px;
-}
-
 .business .background-pink
 {
     background-color: #FF8387;
@@ -222,7 +216,14 @@ header#header .header p
 
 .business .explanation .logos img
 {
-    width: 18%;   
+    width: 100%; 
+    opacity: 0.5;  
+    will-change: opacity;
+}
+
+.business .explanation .logos img:hover
+{
+    opacity: 1;  
 }
 
 .business .explanation .sub-button
@@ -298,10 +299,36 @@ header#header .header p
     background-color:#2788BC;
 }
 
-/* .business .explanation .points img
+/* Articles */
+
+.business .articles .logos
+{
+    margin-bottom: 60px;
+}
+
+.business section.articles.background-grey
+{
+    background-color: #f9f7f7;
+}
+
+.business .articles h4
+{
+    color: #333333;
+    font-size: 24px;
+    padding-top: 30px;
+}
+
+.business .articles .logos img
 {
     width: 100%;
-} */
+    opacity: 0.5;
+    will-change: opacity;
+}
+
+.business .articles .logos img:hover
+{
+    opacity: 1;
+}
 
 /**
 *       Section CASE STORIES 
@@ -379,6 +406,11 @@ header#header .header p
     color: #666666;
     opacity: 0.8;
     font-size: 12px;
+}
+
+.business .business-solution
+{
+    padding-bottom: 50px;
 }
 
 .business .comments .button, .business .business-solution .button
@@ -513,5 +545,11 @@ header#header .header p
     h2
     {
         font-size: 35px;
+    }
+
+    /* logos */
+    .business .articles .logos img
+    {
+        width: 48%;
     }
 }

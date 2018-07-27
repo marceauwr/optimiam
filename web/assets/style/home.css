@@ -8,11 +8,6 @@ body
 /**
 *       HEADER
 */
-/* header#header .col
-{
-    position: absolute;
-} */
-
 .home
 {
     perspective: 800px;
@@ -69,16 +64,12 @@ header#header .header p
 .home .background-landing
 {
     padding-top: 120px;
-    background: url('../images/backgrounds/landing-optimiam.jpg') no-repeat center fixed;
+    color:white;
+    background: url('../images/backgrounds/landing-optimiam.jpg') no-repeat center;
 }
-
-@media (min-width: 600px)
+.home .landing
 {
-    .home .landing
-    {
-        padding-bottom: 50px;
-    }
-
+    padding-bottom: 50px;
 }
 
 .home .landing .catch-phrase
@@ -165,7 +156,14 @@ header#header .header p
 
 .home .popular-seller .logos img, .home .articles .logos img
 {
-    width: 18%;
+    width: 100%;
+    opacity: 0.5;
+    will-change: opacity;
+}
+
+.home .popular-seller .logos img:hover, .home .articles .logos img:hover
+{
+    opacity: 1;
 }
 
 .home .popular-seller .row:nth-child(2)
@@ -177,6 +175,16 @@ header#header .header p
 /**
 *       Optibox
 */
+.home section.optibox h4.sub-title
+{
+    color: #333333;
+}
+
+.home section.optibox .text-optibox
+{
+    color: #666666;
+}
+
 @media (min-width:600px)
 {
     .home section.optibox .container

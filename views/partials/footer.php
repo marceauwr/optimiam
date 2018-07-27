@@ -4,10 +4,18 @@
                 <div class="row">
                     <img src="<?= URL ?>web/assets/images/logos/optimiam_logo.png" alt="" class="col s4 m3">
                     <div class="col s8 m3 offset-m5">
-                        <img src="<?= URL ?>web/assets/images/icons/facebook.svg" alt="" class="social">
-                        <img src="<?= URL ?>web/assets/images/icons/twitter.svg" alt="" class="social">
-                        <img src="<?= URL ?>web/assets/images/icons/instagram.svg" alt="" class="social">
-                        <img src="<?= URL ?>web/assets/images/icons/linkedin.svg" alt="" class="social">
+                        <a href="#" class="circle">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="circle">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="circle">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="circle">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
                     </div>
                 </div>
                 <div class="row">
@@ -20,8 +28,8 @@
                     <div class="col s12 m3 offset-m1 center-align">
                         <div class="footer-subtitle">QUICK LINKS</div>
                         <div class="footer-txts">
-                            <div class="footer-txt"><a href="business.html">How to sell food</a></div>
-                            <div class="footer-txt"><a href="#">How to buy food</a></div>
+                            <div class="footer-txt"><a href="<?= URL ?>business">Vendre de la nourriture</a></div>
+                            <div class="footer-txt"><a href="<?= URL ?>">Acheter de la nourriture</a></div>
                             <div class="footer-txt"><a href="#">Why Karma</a></div>
                         </div>
                     </div>
@@ -38,6 +46,7 @@
             </div>
         </div>
     </footer>
+    <script src="<?= URL ?>web/assets/javascript/vendor.js"></script>
     <script src="<?= URL ?>web/assets/javascript/script.js"></script>
 </body>
 </html>

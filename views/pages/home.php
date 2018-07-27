@@ -28,19 +28,19 @@
         <div class="container">
             <div class="row icons">
                 <div class="col s12 m4 center-align icon">
-                    <img src="<?= URL ?>web/assets/images/icons/cart.jpg" alt="" class="width-image">
+                    <img src="<?= URL ?>web/assets/images/icons/store_icon.jpg" alt="" class="width-image">
                     <h3 class=" sub-title">+ de 850 commerçants vendent leurs invendus par le biais d’OptiMiam !</h3>
                     <p class="explain-txt">Intervenez dans la lutte contre le gaspillage en vendant sur OptiMiam vos produits en surplus comme le font Pomme de Pain, Franprix, Big Fernand et bien d’autres encore. </p>
                     <a href="<?= URL ?>business" class="underline"><p>Comment vendre de la nourriture</p></a>
                 </div>
                 <div class="col s12 m4 center-align icon">
-                    <img src="<?= URL ?>web/assets/images/icons/smartphone.jpg" alt="" class="width-image">
+                    <img src="<?= URL ?>web/assets/images/icons/cutlery_icon.jpg" alt="" class="width-image">
                     <h3 class="sub-title">+ de 220 000 utilisateurs commandent nos OptiBox</h3>
                     <p class="explain-txt">Composées de produits de qualité à moitié prix.OptiMiam est disponible dans plus de 36 villes en France, alors n’attendez plus pour commander votre OptiBox !</p>
                     <a href="<?= URL ?>" class="underline"><p>Comment acheter de la nourriture</p></a>
                 </div>
                 <div class="col s12 m4 center-align icon">
-                    <img src="<?= URL ?>web/assets/images/icons/leaf.jpg" alt="" class="width-image">
+                    <img src="<?= URL ?>web/assets/images/icons/ecology_icon.jpg" alt="" class="width-image">
                     <h3 class="sub-title">Un pari gagnant-gagnant-gagnant !</h3>
                     <p class="explain-txt">Les restaurants obtiennent jusqu'à 0,5 million de revenus supplémentaires par an tout en réduisant le gaspi ! Quant aux utilisateurs, ils profitent de plats délicieux à moitié prix ! Sans parler de l’environnement qui bénéficie largement d’OptiMiam !</p>
                 </div>
@@ -53,12 +53,52 @@
                 <h4 class="col s12 m12 center-align">Quelques-unes des enseignes les plus populaires sur OptiMiam :</h4>
             </div>
             <div class="row">
-                <div class="col s12 m12 logos center-align">
-                    <img src="<?= URL ?>web/assets/images/logos/Hemkop_at_Karma.jpg" alt="">
-                    <img src="<?= URL ?>web/assets/images/logos/Scandic_at_Karma.jpg" alt="">
-                    <img src="<?= URL ?>web/assets/images/logos/ARKET_at_Karma.jpg" alt="">
-                    <img src="<?= URL ?>web/assets/images/logos/KitchenandTable_at_Karma.jpg" alt="">
-                    <img src="<?= URL ?>web/assets/images/logos/Aubaine_at_Karma.jpg" alt="" class="hide-on-small-only">
+                <div class="col s12 m12 logos center-align owl-carousel">
+                    <div class="item">
+                        <a href="https://www.auchan.fr/magasins/votremagasin">
+                            <img src="<?= URL ?>web/assets/images/logos/simply_logo.png" alt="simply market logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.briochedoree.fr/">
+                            <img src="<?= URL ?>web/assets/images/logos/brioche_logo.png" alt="brioche dorée logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.carrefour.fr/">
+                            <img src="<?= URL ?>web/assets/images/logos/carrefour_city_logo.png" alt="carrefour city logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.paul.fr/fr/">
+                            <img src="<?= URL ?>web/assets/images/logos/paul_logo.png" alt="paul logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="http://www.subway.com/fr-fr/">
+                            <img src="<?= URL ?>web/assets/images/logos/subway_logo.png" alt="subway logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.cora.fr/arcueil/">
+                            <img src="<?= URL ?>web/assets/images/logos/cora_logo.png" alt="cora logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="http://www.casino-proximite.fr/enseigne/casino-shop">
+                            <img src="<?= URL ?>web/assets/images/logos/casino_logo.png" alt="casino logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="http://www.autogrill.fr/">
+                            <img src="<?= URL ?>web/assets/images/logos/autogrill_logo.png" alt="autogrill logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.carrefour.fr/">
+                            <img src="<?= URL ?>web/assets/images/logos/carrefour_express_logo.png" alt="carrefour express logo">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -165,12 +205,122 @@
                 <h4 class="col s12 m12 center-align">Ils parlent d'OptiMiam :</h4>
             </div>
             <div class="row">
-                <div class="col s12 m12 logos center-align">
-                    <img src="<?= URL ?>web/assets/images/logos/Hemkop_at_Karma.jpg" alt="">
-                    <img src="<?= URL ?>web/assets/images/logos/Scandic_at_Karma.jpg" alt="">
-                    <img src="<?= URL ?>web/assets/images/logos/ARKET_at_Karma.jpg" alt="">
-                    <img src="<?= URL ?>web/assets/images/logos/KitchenandTable_at_Karma.jpg" alt="">
-                    <img src="<?= URL ?>web/assets/images/logos/Aubaine_at_Karma.jpg" alt="" class="hide-on-small-only">
+                <div class="col s12 m12 logos center-align owl-carousel">
+                    <div class="item">
+                        <a href="https://www.lci.fr/france/optimiam-lapplication-qui-permet-de-manger-sans-gacher-1216431.html">
+                            <img src="<?= URL ?>web/assets/images/logos/media/lci.png" alt="lci logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.lesfurets.com/budget-fute/pouvoir-achat/appli-anti-gaspi">
+                            <img src="<?= URL ?>web/assets/images/logos/media/furets.png" alt="lci logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://bfmbusiness.bfmtv.com/entreprise/optimiam-l-appli-qui-associe-lutte-contre-le-gaspi-et-economie-910296.html">
+                            <img src="<?= URL ?>web/assets/images/logos/media/bfm.png" alt="BFM Business logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="http://www.liberation.fr/france/2015/09/08/optimiam-manger-pour-ne-pas-gacher_1378195#link_time=1441735446">
+                            <img src="<?= URL ?>web/assets/images/logos/media/liberation.png" alt="Libération logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="http://www.europe1.fr/mediacenter/emissions/innovation/videos/optimiam-l-appli-anti-gachis-2318903">
+                            <img src="<?= URL ?>web/assets/images/logos/media/europe1.png" alt="Europe 1 logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="http://www.lemonde.fr/m-boulot-reseau/article/2015/04/21/des-applis-boussoles-plein-les-poches_4620011_4498015.html">
+                            <img src="<?= URL ?>web/assets/images/logos/media/lemonde.png" alt="Le Monde logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="http://www.lepoint.fr/high-tech-internet/l-app-de-la-semaine-optimiam-30-12-2014-1893050_47.php">
+                            <img src="<?= URL ?>web/assets/images/logos/media/lepoint.png" alt="Le Point logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.lsa-conso.fr/food-tech-optimiam-l-appli-qui-veut-en-finir-avec-le-gaspillage-alimentaire,230325">
+                            <img src="<?= URL ?>web/assets/images/logos/media/lsa.png" alt="Libération logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.20minutes.fr/paris/1640391-20150626-paris-optimiam-application-combine-promotions-lutte-contre-gaspillage-alimentaire">
+                            <img src="<?= URL ?>web/assets/images/logos/media/20minutes.png" alt="20 minutes logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.grazia.fr/lifestyle/insolite/lappli-de-la-semaine-optimiam-des-bons-plans-food-anti-gaspi-744982">
+                            <img src="<?= URL ?>web/assets/images/logos/media/grazia.png" alt="Grazia logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.rtl.fr/actu/conso/raodath-aminou-optimiam-est-un-pont-digital-entre-les-commerces-de-proximite-et-les-consommateurs-7778595458">
+                            <img src="<?= URL ?>web/assets/images/logos/media/rtl.png" alt="RTL logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.journaldunet.com/web-tech/start-up/concours-e-food-laureats-1114.shtml">
+                            <img src="<?= URL ?>web/assets/images/logos/media/jdn.png" alt="Journal du net logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="">
+                            <img src="<?= URL ?>web/assets/images/logos/media/liberation.png" alt="Libération logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.lesechos.fr/07/01/2015/LesEchos/21850-081-ECH_les-5-tendances-de-la-consommation-verte-en-2015.htm">
+                            <img src="<?= URL ?>web/assets/images/logos/media/lesechos.png" alt="Les échos logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.maddyness.com/2016/01/21/optimiam-levee/">
+                            <img src="<?= URL ?>web/assets/images/logos/media/maddyness.png" alt="Maddyness logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.snacking.fr/news-1881-OptiMiam--l-appli-anti-gaspi-laureate-du-prix-E-Food.php">
+                            <img src="<?= URL ?>web/assets/images/logos/media/snacking.png" alt="Snacking logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.youtube.com/watch?v=lS4zRe-bKI4">
+                            <img src="<?= URL ?>web/assets/images/logos/media/tv5monde.png" alt="TV5 monde logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.bibamagazine.fr/lifestyle/bonsplans/optimiam-l-appli-des-courses-a-petits-prix-anti-gaspillage-34897">
+                            <img src="<?= URL ?>web/assets/images/logos/media/biba.png" alt="biba logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.rtbf.be/lapremiere/emissions_matin-premiere/nos-rubriques/le-journal-du-web/article_decouverte-web-optimiam?id=8650860&programId=60&redirect">
+                            <img src="<?= URL ?>web/assets/images/logos/media/rtbf.png" alt="rtbf première logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.lebonbon.fr/paris/pop-culture/optimiam-lappli-anti-gachis/">
+                            <img src="<?= URL ?>web/assets/images/logos/media/lebonbon.png" alt="Le bonbon logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.wedemain.fr/Contre-le-gaspillage-alimentaire-l-appli-qui-geolocalise-les-invendus_a770.html">
+                            <img src="<?= URL ?>web/assets/images/logos/media/wedemain.png" alt="We Demain logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="http://www.ladn.eu/tech-a-suivre/portraits-de-startups/optimiam-stop-au-gaspillage/">
+                            <img src="<?= URL ?>web/assets/images/logos/media/adn.png" alt="ADN logo">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://mrmondialisation.org/tag/optimiam/">
+                            <img src="<?= URL ?>web/assets/images/logos/media/mondialisation.png" alt="Mr mondialisation logo">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
