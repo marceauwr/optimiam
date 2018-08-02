@@ -13,7 +13,7 @@
                 <section class="landing">
                     <div class="row">
                         <div class="col hide-on-small-only m4 optimiam-app-image">
-                            <img src="<?= URL ?>web/assets/images/opti-iphone.png" alt="Optimiam Application" class="opti-app">
+                            <img src="<?= URL ?>web/assets/images/optimiam-map.png" alt="Optimiam Application" class="opti-app">
                         </div>
                         <div class="col s12 m6 offset-m2">
                             <div class="row catch-phrase">
@@ -115,20 +115,20 @@
                         Comment 1500 commerçants utilisent OptiMiam à des fins écoresponsables ?
                     </h1>
                 </div>
-                <div class="row valign-wrapper">
-                    <div class="col s12">
+                <div class="row">
+                    <div class="col s12 center-align-on-med">
                         <img src="<?= URL ?>web/assets/images/backgrounds/image1.jpg" alt="" class="col s12 push-m6 m6">
                         <div class="col s12 pull-m6 m6">
                             <h3 class="exemple-title">1. Publiez vos offres sur OptiMiam en 3 clics</h3>
                             <p class="exemple-text">
                                 Lorsque vous identifiez des aliments proches de la date d'échéance, publiez sur l’application une nouvelle offre contenant ces produits à moitié prix. 
                                 L’application est optimisée de telle sorte que publier une offre vous prend une minute de votre temps !
-                            </p>
+                            </p>                          
                         </div>
                     </div>
                 </div>
-                <div class="row valign-wrapper">
-                    <div class="col s12">
+                <div class="row">
+                    <div class="col s12 center-align-on-med">
                         <img src="<?= URL ?>web/assets/images/backgrounds/image2.jpg" alt="" class="col s12 pull-m0 m6">
                         <div class="col s12 push-m0 m6">
                             <h3 class="exemple-title">2. Touchez de nouveaux clients</h3>
@@ -136,8 +136,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="row valign-wrapper">
-                    <div class="col s12">
+                <div class="row">
+                    <div class="col s12 center-align-on-med">
                         <img src="<?= URL ?>web/assets/images/backgrounds/image3.jpg" alt="" class="col s12 push-m6 m6">
                         <div class="col s12 pull-m6 m6">
                             <h3 class="exemple-title">3. Choisissez les horaires qui vous conviennent</h3>
@@ -179,10 +179,10 @@
                 <section class="comments">
                     <h2>Les retours des commerçants</h2>
                     <div class="row background-white">
-                        <div class="col hide-on-small-only m3 offset-m1">
-                            <img src="<?= URL ?>web/assets/images/opti-iphone.png" alt="OptiMiam application" class="opti-app iphone-app">
+                        <div class="col hide-on-small-only m4 offset-m1">
+                            <div id="anim"></div>
                         </div>
-                        <div class="col s12 m5 offset-m1">
+                        <div class="col s12 m5 offset-m1 comments-content">
                             <div class="row">
                                 <div class="col s12 m12">
                                     <p class="comment-txt">"Utiliser OptiMiam est une évidence pour tout chef ou propriétaire de restaurant ! Il n’y a pas meilleur challenge pour un commerçant que de réduire le gaspillage tout en gagnant de l'argent. "</p>
@@ -224,8 +224,8 @@
         <div class="container">
             <section class="business-solution">
                 <h2 class="center-align part-title">La solution pour les excédents de votre commerce</h2>
-                <div class="row valign-wrapper">
-                    <div class="col s12">
+                <div class="row">
+                    <div class="col s12 center-align-on-med">
                         <img src="<?= URL ?>web/assets/images/backgrounds/image4.jpg" alt="" class="col s12 push-m6 m6">
                         <div class="col s12 pull-m6 m6">
                             <h3 class="exemple-title">OptiMiam pour les restaurants</h3>
@@ -236,8 +236,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="row valign-wrapper">
-                    <div class="col s12">
+                <div class="row">
+                    <div class="col s12 center-align-on-med">
                         <img src="<?= URL ?>web/assets/images/backgrounds/image5.jpg" alt="" class="col s12 pull-m0 m6">
                         <div class="col s12 push-m0 m6">
                             <h3 class="exemple-title">OptiMiam pour les supermarchés</h3>
@@ -248,8 +248,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="row valign-wrapper">
-                    <div class="col s12">
+                <div class="row">
+                    <div class="col s12 center-align-on-med">
                         <img src="<?= URL ?>web/assets/images/backgrounds/image6.jpg" alt="" class="col s12 push-m6 m6">
                         <div class="col s12 pull-m6 m6">
                             <h3 class="exemple-title">OptiMi pour les cafés et les boulangeries</h3>

@@ -440,6 +440,19 @@ header#header .header p
     padding-bottom: 40px;
 }
 
+@media (min-width: 600px)
+{
+    .business .comments .comments-content
+    {
+        margin-top: 85px;
+    }
+}
+
+#anim
+{
+    width:100%;
+}
+
 /**
 *       Business solution final part
 */
@@ -477,6 +490,23 @@ header#header .header p
 .row:nth-last-child(1)
 {
     margin-bottom: 0;
+}
+
+@media (min-width: 600px)
+{
+    .business .center-align-on-med
+    {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 600px)
+{
+    .business .center-align-on-med
+    {
+        margin-bottom: 50px;
+    }
 }
 
 @media (max-width: 600px)

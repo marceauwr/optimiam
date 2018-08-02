@@ -16,6 +16,11 @@
     z-index: 999;
 }
 
+.burger
+{
+    height: 50px;
+}
+
 .burger .menu.shown
 {
     transform:translate(0, 8vh) scaleX(1);

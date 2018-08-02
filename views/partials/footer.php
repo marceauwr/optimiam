@@ -47,6 +47,8 @@
         </div>
     </footer>
     <script src="<?= URL ?>web/assets/javascript/vendor.js"></script>
+    <script src="<?= URL ?>web/assets/javascript/lottie.js"></script>
     <script src="<?= URL ?>web/assets/javascript/script.js"></script>
+    <script src="<?= URL ?>web/assets/javascript/animation.js"></script>
 </body>
 </html>
